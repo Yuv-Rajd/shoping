@@ -4,7 +4,7 @@ import "./ItemCard.css";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { CartItemsContext } from "../../../Context/CartItemsContext";
-import { Divider, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { WishItemsContext } from "../../../Context/WishItemsContext";
